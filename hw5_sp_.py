@@ -53,5 +53,5 @@ for i in range(100):
     plt.subplot(10,10,i+1)
     plt.imshow(digit_image, cmap = mpl.cm.gist_gray)
 
-
-
+ab = X[1,:].reshape((4,8,4,4,2))
+a=ab[1,:]
